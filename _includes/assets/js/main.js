@@ -47,11 +47,11 @@
     }, 1000);
   });
 
-  /*--/ Star Counter /--*/
-  $('.counter').counterUp({
-    delay: 15,
-    time: 2000
-  });
+  // /*--/ Star Counter /--*/
+  // $('.counter').counterUp({
+  //   delay: 15,
+  //   time: 2000
+  // });
 
   /*--/ Star Scrolling nav /--*/
   var mainNav_height = $('#mainNav').outerHeight() - 22;
@@ -126,17 +126,17 @@
   }
 
   /*--/ Testimonials owl /--*/
-  $('#testimonial-mf').owlCarousel({
-    margin: 20,
-    autoplay: true,
-    autoplayTimeout: 4000,
-    autoplayHoverPause: true,
-    responsive: {
-      0: {
-        items: 1,
-      }
-    }
-  });
+  // $('#testimonial-mf').owlCarousel({
+  //   margin: 20,
+  //   autoplay: true,
+  //   autoplayTimeout: 4000,
+  //   autoplayHoverPause: true,
+  //   responsive: {
+  //     0: {
+  //       items: 1,
+  //     }
+  //   }
+  // });
 
   // Portfolio details carousel
   // $(".portfolio-details-carousel").owlCarousel({
@@ -147,10 +147,10 @@
   // });
 
   // Initiate venobox (lightbox feature used in portofilo)
-  $(document).ready(function() {
-    $('.venobox').venobox({
-      'share': false
-    });
-  });
+  // $(document).ready(function() {
+  //   $('.venobox').venobox({
+  //     'share': false
+  //   });
+  // });
 
 })(jQuery);
