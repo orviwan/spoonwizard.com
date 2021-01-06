@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: #DFDFDF;
+  background-color: #333;
   color: #4e4e4e;
 }
 
@@ -19,7 +19,11 @@ h3,
 h4,
 h5,
 h6 {
-  color: #1e1e1e;
+  color: #E0E0E0;
+}
+
+.box-shadow-full h5 {
+  color: #444
 }
 
 a {
@@ -151,13 +155,13 @@ a:hover {
 }
 
 .subtitle-a {
-  color: #4e4e4e;
+  color: #C0C0C0;
 }
 
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #364655;
+  background-color: #E0E0E0;
   margin: 0 auto;
 }
 
@@ -517,36 +521,34 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #DFDFDF;
+  background-color: #111;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-.navbar-b.navbar-reduce #logo {
-  filter: invert(.65);
-}
+
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #364655;
+  color: #E0E0E0;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #364655;
+  background-color: #E0E0E0;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #364655;
+  color: #FFF;
 }
 
 .navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #364655;
+  color: #E0E0E0;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #364655;
+  color: #E0E0E0;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
